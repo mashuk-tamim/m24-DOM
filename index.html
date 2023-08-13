@@ -15,28 +15,28 @@
     <main id="main-container">
         <h2>Today I will learn Document Object Model</h2>
         <section>
-        <ul class="items-container">
             <h3 id="item-title">Items Container</h3>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-        </ul>
+            <ul class="items-container">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
         </section>
         <section id="fruits-container">
-        <ul id="fruits-list">
             <h3 id="fruit-title">Items Container</h3>
-            <li class="fruit-items">fruit 1</li>
-            <li class="fruit-items">fruit 2</li>
-            <li class="fruit-items">fruit 3</li>
-        </ul>
+            <ul id="fruits-list">
+                <li class="fruit-items">fruit 1</li>
+                <li class="fruit-items">fruit 2</li>
+                <li class="fruit-items">fruit 3</li>
+            </ul>
         </section>
         <section>
-        <ul class="flowers-container">
             <h3 id="flower-title">Items Container</h3>
-            <li>flower 1</li>
-            <li>flower 2</li>
-            <li>flower 3</li>
-        </ul>
+            <ul class="flowers-container">
+                <li>flower 1</li>
+                <li>flower 2</li>
+                <li>flower 3</li>
+            </ul>
         </section>
     </main>
     <footer>
@@ -44,11 +44,11 @@
     </footer>
 
     <script src="js/dom.js"></script>
-    <script src="js/styleInJS.js"></script>
     <script src="js/append.js"></script>
+    <script src="js/styleInJS.js"></script>
     <script>
         const itemTitle = document.getElementById('item-title');
-        itemTitle.innerText='Item Title changed by JS' 
+        itemTitle.innerText = 'Item Title changed by JS'
 
         const itemsContainer = document.getElementsByClassName('items-container');
         // console.log(itemsContainer);
